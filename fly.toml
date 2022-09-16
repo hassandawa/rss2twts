@@ -1,0 +1,8 @@
+# fly.toml file generated for rss2twts on 2022-09-15T17:04:05+03:00
+
+app = "rss2twts"
+kill_signal = "SIGINT"
+kill_timeout = 5
+processes = []
+
+[env]
