@@ -147,7 +147,7 @@ def main():
                 log(logfilename, logstr)
                 user = None
             if user:
-                for status in tweepy.Cursor(api.user_timeline, result_type = 'recent', user_id=user.id, include_rts=False, exclude_replies=True).items(4):
+                for status in tweepy.Cursor(api.user_timeline, result_type = 'mixed', user_id=user.id, include_rts=False, exclude_replies=True).items(4):
                     if not status.retweeted:
                         api.retweet(status.id)
                         logstr = 'Retweeted: ' + status.text
