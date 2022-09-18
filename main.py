@@ -77,8 +77,8 @@ def main():
     f = filename.readlines()
     filename.close()
 
-    Rmin = 900
-    Rmax = 1200
+    Rmin = 1000
+    Rmax = 1500
     MaxHashNum = 1000
     MaxEntriesNum = 1
     usernames = config['usernames'].split(',')
