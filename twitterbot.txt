@@ -1,6 +1,6 @@
-#Entertainment https://www.etonline.com/rss
+#Entertainment https://www.galaxyfm.co.ug/feed
+#Entertainment https://www.pulselive.co.ke/rss
 #Entertainment https://www.sqoop.co.ug/feed 
 #Entertainment https://mpasho.co.ke/rss
-#Entertainment https://kenyannews.co.ke/entertainment/feed/
 #Entertainment https://blizz.co.ug/rss.xml 
 #Entertainment https://mbu.ug/feed/
