@@ -1,4 +1,4 @@
-# fly.toml file generated for rss2twts on 2022-09-18T11:07:34+03:00
+# fly.toml file generated for rss2twts on 2022-09-19T12:54:20+03:00
 
 app = "rss2twts"
 kill_signal = "SIGINT"
