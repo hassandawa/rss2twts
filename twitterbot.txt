@@ -1,6 +1,5 @@
-#Gossip https://www.galaxyfm.co.ug/feed
-#Entertainment https://www.sqoop.co.ug/feed 
-#Gossip https://mpasho.co.ke/rss
-#Entertainment https://blizz.co.ug/rss.xml 
-#Entertainment https://mbu.ug/feed/
-#Music https://tangazamagazine.com/features?format=rss
+#Gossip https://www.sqoop.co.ug/feed 
+#Entertainment https://mpasho.co.ke/rss
+
+
+
