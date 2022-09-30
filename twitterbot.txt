@@ -1,10 +1,2 @@
-#CyooCya https://www.sqoop.co.ug/feed 
-#CyooCya https://mpasho.co.ke/rss
-#CyooCya https://kenyannews.co.ke/entertainment/feed/
-#CyooCya https://blizz.co.ug/rss.xml 
-#CyooCya https://mbu.ug/feed/
-#CyooCya https://www.etonline.com/rss
-#CyooCya https://www.boom.ug/feed/
-#CyooCya https://bigeye.ug/feed/
-
+#Github https://github.com/rss/feed
 
