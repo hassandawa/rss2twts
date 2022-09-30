@@ -77,10 +77,10 @@ def main():
     f = filename.readlines()
     filename.close()
 
-    Rmin = 1200
-    Rmax = 1800
+    Rmin = 900
+    Rmax = 2700
     MaxHashNum = 1000
-    MaxEntriesNum = 1
+    MaxEntriesNum = 5
     usernames = config['usernames'].split(',')
 
     tweetshash = init_hashes(tweetshashesfile)
@@ -147,7 +147,7 @@ def main():
                 log(logfilename, logstr)
                 user = None
             if user:
-                for status in tweepy.Cursor(api.user_timeline, result_type = 'mixed', user_id=user.id, include_rts=False, exclude_replies=True).items(4):
+                for status in tweepy.Cursor(api.user_timeline, user_id=user.id, include_rts=False, exclude_replies=True).items(4):
                     if not status.retweeted:
                         api.retweet(status.id)
                         logstr = 'Retweeted: ' + status.text

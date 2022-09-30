@@ -3,3 +3,6 @@
 *.jpg
 *.hash
 .env
+twitterbot.txt
+clean.sh
+run.sh
